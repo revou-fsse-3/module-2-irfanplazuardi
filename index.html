@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pokemon</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="asset/image/icon.png" />
+  </head>
+
+  <body>
+    <nav id="navbar">
+      <div id="logo"><img src="asset/image/logo.png" alt="logo" /></div>
+      <ul class="menubar">
+        <li class="menuitem">
+          <a href="#home" class="menulink">Home</a>
+        </li>
+        <li class="menuitem">
+          <a href="#my-pokemon" class="menulink">Pokemon</a>
+        </li>
+        <li class="menuitem">
+          <a href="#badge" class="menulink">Badge</a>
+        </li>
+        <li class="menuitem">
+          <a href="#video" class="menulink">Video</a>
+        </li>
+        <li class="menuitem">
+          <a href="#join-us" class="menulink">Join Us</a>
+        </li>
+        <li>
+          <div class="mode-toggle">
+            <label class="toogle">
+              <input type="checkbox" id="mode-toggle" />
+              <span class="slider"></span>
+            </label>
+            <p class="mode-label">&#128262;</p>
+          </div>
+        </li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+
+    <header id="home">
+      <div class="title">
+        <h1>Discover the world of pokemon</h1>
+        <p>
+          Start your journey to becoming a Pokemon master with us team Phoneix and discover new Pokemon. Team Phoneix, one of the best parties in Pokemon Go, has won many Pokemon tournaments and catch some legendary Pokemons. So what are
+          you waiting for come and join us now and explore the world of pokemon
+        </p>
+      </div>
+      <div class="tagline">
+        <h3>Pokemon</h3>
+        <p>Gotta catch'em all</p>
+      </div>
+
+      <section id="event">
+        <div class="slideshow-container">
+          <div class="myslides fade">
+            <div class="numbertext">1 / 4</div>
+            <img src="asset/image/slide1.png" alt="Asia Championship Series" />
+          </div>
+          <div class="myslides fade">
+            <div class="numbertext">2 / 4</div>
+            <img src="asset/image/slide2.png" alt="My Favorite Award" />
+          </div>
+          <div class="myslides fade">
+            <div class="numbertext">3 / 4</div>
+            <img src="asset/image/slide3.jpg" alt="Pokemon Card Collection" />
+          </div>
+          <div class="myslides fade">
+            <div class="numbertext">4 / 4</div>
+            <img src="asset/image/slide4.jpg" alt="Asia Campaign Event" />
+          </div>
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <div class="dot-container">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section id="my-pokemon">
+        <h1>Pokemon Line Up</h1>
+        <ul id="pokemon-list">
+          <li class="pokemon-card">
+            <img class="pokemon-image" src="asset/image/pikachu.png" alt="pikachu" />
+            <h3>Pikachu</h3>
+          </li>
+          <li class="pokemon-card">
+            <img class="pokemon-image" src="asset/image/charizard.png" alt="charizard" />
+            <h3>Charizard</h3>
+          </li>
+          <li class="pokemon-card">
+            <img class="pokemon-image" src="asset/image/greninja.png" alt="greninja" />
+            <h3>Greninja</h3>
+          </li>
+          <li class="pokemon-card">
+            <img class="pokemon-image" src="asset/image/gengar.png" alt="gengar" />
+            <h3>Gengar</h3>
+          </li>
+          <li class="pokemon-card">
+            <img class="pokemon-image" src="asset/image/incineroar.png" alt="incineroar" />
+            <h3>Incineroar</h3>
+          </li>
+          <li class="pokemon-card">
+            <img class="pokemon-image" src="asset/image/lugia.png" alt="lugia" />
+            <h3>Lugia</h3>
+          </li>
+        </ul>
+      </section>
+
+      <section id="badge">
+        <h1>Gym Badges</h1>
+        <div class="grid-container1">
+          <div class="trainer">
+            <picture>
+              <source media="(max-width:800px)" srcset="asset/image/trainer-min.png" />
+              <img src="asset/image/trainer.png" alt="trainer" style="width: auto" />
+            </picture>
+          </div>
+          <div class="badge-grid">
+            <ul class="badge-list">
+              <li class="badge-item">
+                <img src="asset/image/Heat_Badge.png" alt="heat-bage" />
+                <p>Heat Badge</p>
+              </li>
+              <li class="badge-item">
+                <img src="asset/image/Feather_Badge.png" alt="feather-badge" />
+                <p>Feather Badge</p>
+              </li>
+              <li class="badge-item">
+                <img src="asset/image/Stone_Badge.png" alt="stone-badge" />
+                <p>Stone Badge</p>
+              </li>
+              <li class="badge-item">
+                <img src="asset/image/Dynamo_Badge.png" alt="dynamo-badge" />
+                <p>Dynamo Badge</p>
+              </li>
+              <li class="badge-item">
+                <img src="asset/image/Mind_Badge.png" alt="mind-badge" />
+                <p>Mind Badge</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="video">
+        <iframe
+          src="https://www.youtube.com/embed/5vyV74tkdEs?si=EdvFlJNn0ZNwPW2B"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen>
+        </iframe>
+      </section>
+
+      <section id="join-us">
+        <h1>Join Our Party</h1>
+        <form>
+          <fieldset class="formfield">
+            <legend>Tell Me About You</legend>
+            <div>
+              <label for="name">Name:</label>
+              <input type="text" id="name" autofocus required />
+            </div>
+            <div>
+              <label for="email">Email:</label>
+              <input type="email" id="email" required />
+            </div>
+            <div>
+              <label for="phone">Phone:</label>
+              <input type="tel" id="phone" required />
+            </div>
+            <div>
+              <label for="gender">Gender:</label>
+              <div class="gender">
+                <input type="radio" id="male" name="gender" value="male" />
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female" />
+                <label for="female">Female</label>
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset class="formfield">
+            <legend>Additional Information</legend>
+            <div>
+              <label for="region">Select your pokemon region:</label>
+              <select name="region" id="region">
+                <option value="asia">Asia</option>
+                <option value="australia">Australia</option>
+                <option value="europe">Europe</option>
+                <option value="africa">Africa</option>
+                <option value="america">America</option>
+              </select>
+            </div>
+            <div>
+              <label for="id">Pokemon ID:</label>
+              <input type="text" id="id" required />
+            </div>
+            <div>
+              <label for="message">Tell us why you want to join our party:</label>
+              <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+              <label for="date">When would you be available to join our party</label>
+              <input type="date" id="date" required />
+            </div>
+            <div>
+              <label for="level">Select your trainer level</label>
+              <div class="range-level">
+                <input type="range" min="1" max="50" value="1" id="level" />
+                <span>Level 1</span>
+              </div>
+              <div class="range-level">
+                <ul class="level-list">
+                  <li>level 1-10: Beginner</li>
+                  <li>level 11-20: Intermediate</li>
+                  <li>level 21-30: Advanced</li>
+                  <li>level 31-40: Expert</li>
+                  <li>level 41-50: Master</li>
+                </ul>
+              </div>
+            </div>
+            <div>
+              <div class="upload-file">
+                <label for="upload-pokedex">Upload your pokedex and pokemon lineup:</label>
+                <input type="file" id="upload-pokedex" name="uploadPokedex[]" multiple accept="image/png, image/jpeg" required />
+                <p>Example:</p>
+              </div>
+              <div class="example-upload">
+                <div>
+                  <p>Pokedex</p>
+                  <img src="asset/image/pokedex.png" alt="pokedex" />
+                </div>
+                <div>
+                  <p>My Pokemon</p>
+                  <img src="asset/image/pokemonScreenshot.png" alt="pokemonScreenshot" />
+                </div>
+              </div>
+            </div>
+            <button type="submit" onclick="alertFunction()">Submit</button>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>copyright &copy; pokemon corp 2023</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
