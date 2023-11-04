@@ -595,6 +595,7 @@ footer {
 }
 
 footer p {
+  margin: 0;
   padding: 30px;
 }
 /* footer */
