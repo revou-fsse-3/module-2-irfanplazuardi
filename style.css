@@ -1,7 +1,7 @@
 @font-face {
   font-family: "Poppins";
-  src: url(asset/fonts/Poppins-ThinItalic.ttf);
-  font-weight: 100;
+  src: url(asset/fonts/Poppins-LightItalic.ttf);
+  font-weight: 300;
 }
 
 @font-face {
@@ -170,7 +170,7 @@ body.dark-mode {
 
 legend.dark-mode {
   color: #ffc436;
-  text-shadow: #111 2px 5px 4px;
+  text-shadow: #ffc436 10px 10px 7px;
 }
 
 button[type="submit"].dark-mode {
@@ -202,7 +202,7 @@ button[type="submit"].dark-mode {
   max-width: 1000px;
   min-width: 200px;
   text-align: center;
-  font-weight: 100;
+  font-weight: 300;
   margin: auto;
 }
 
@@ -220,7 +220,7 @@ h1 {
 #home p {
   margin-top: 0;
   padding-bottom: 2rem;
-  font-weight: 100;
+  font-weight: 300;
 }
 .slideshow-container {
   max-width: 1000px;
@@ -287,7 +287,7 @@ h1 {
   transition: background-color 0.6s ease;
 }
 
-.active,
+.dot.active,
 .dot:hover {
   background-color: #717171;
 }
@@ -481,12 +481,14 @@ h1 {
   padding: 1rem;
 }
 
-legend {
+.form-title {
   font-size: 1rem;
-  font-weight: bold;
+  font-weight: 800;
   font-style: italic;
   margin-bottom: 1rem;
-  color: #032138;
+  color: #000;
+  text-shadow: #333 10px 10px 10px;
+  font-size: 21px;
 }
 
 .gender {
