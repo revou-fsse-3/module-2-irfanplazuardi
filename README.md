@@ -12,11 +12,15 @@ Visit our website [pokemonteamphoenix](https://pokemonteamphoenix.online)
 5. Click add new site
    ![add new site](asset/screenshot/1.png)
 6. Select import an existing project
+
    ![import project](asset/screenshot/2.png)
+
 7. Click deploy with github
    ![github deploy](asset/screenshot/3.png)
 8. Select gtihub repository revou-fsse-3
+
    ![select repository](asset/screenshot/4.png)
+
 9. Select project module-2-_student name_
    ![project](asset/screenshot/21.png)
 10. Select the correct branch and click deploy _repository name_ at the bottom of the page
