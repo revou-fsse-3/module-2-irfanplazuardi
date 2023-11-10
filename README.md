@@ -1,71 +1,79 @@
-# Deployed Website Netlify
+# About My Website
 
-[pokemon](https://irfan-revou-pokemon.netlify.app/)
+Hi, we are from Team Phoenix. We are looking for Pokemon Go trainers who would like to join our party and explore the world of Pokemon. By catching new Pokemon and collecting gym badges from challenging gym leaders around the world, we would like to help you boost your Pokemon level and achieve everything in Pokemon Go. So what are you waiting for? Come and join our party with Team Phoenix.
+Visit our website [pokemonteamphoenix](https://pokemonteamphoenix.online)
 
-# Irfan Prima Lazuardi
+# How to signup account with github and connect netlify auto deployment from github branch
 
-![profile](asset/image/9676-min-fotor-2023091385350-transformed.png)
+1. Open [netlify](https://www.netlify.com/)
+2. Click login
+3. Select log in with github
+4. Login to your github account
+5. Click add new site
+   ![add new site](asset/screenshot/1.png)
+6. Select import an existing project
+   ![import project](asset/screenshot/2.png)
+7. Click deploy with github
+   ![github deploy](asset/screenshot/3.png)
+8. Select gtihub repository revou-fsse-3
+   ![select repository](asset/screenshot/4.png)
+9. Select project module-2-_student name_
+   ![project](asset/screenshot/21.png)
+10. Select the correct branch and click deploy _repository name_ at the bottom of the page
+    ![deploy branch](asset/screenshot/22.png)
 
-## About Me
+# Auto Deploy your website on Github with Netlify
 
-Hello my name is Irfan, I am a QA engineer. I am passionate about analyzing testing websites using manual and automated testing. Also evaluating and reporting results of test cases while finding bugs and issues for improvement in software development. I have basic skills in using Cypress, Katalon, and Selenium for automated testing and experienced with manual testing making test cases using tools such as Qase.
+After successfully connect your github project with netlify you now can auto deploy your website when ever the branch has been updated. To make sure your deployment is success you may need to check some deployment report on your project in netlify by following this steps:
 
-## Find Me
+1. Open [netlify](https://www.netlify.com/) and make sure account is login
+2. Select your deployed site
+   ![deployed site](asset/screenshot/5.png)
+3. Select deploys from the sidebar menu
+4. It will show the deployment report make sure the status is published
+   publish
+   ![publish](asset/screenshot/6.png)
+   failed
+   ![failed](asset/screenshot/7.png)
+5. Open your deployed website using the link located at the top of the page
+   ![website link](asset/screenshot/8.png)
+6. Your webiste has been successfully deployed
+   ![deployed success](asset/screenshot/9.png)
 
-- **Github:** [@irfanplazuardi](https://github.com/irfanplazuardi)
-- **Linkedin:** [Irfan Prima Lazuardi](https://www.linkedin.com/in/irfan-prima-lazuardi-316731a8/)
-- **Instagram:** [@irfanplazuardi](https://www.instagram.com/irfanplazuardi/?hl=en)
+# How to connect your custom domain and DNS
 
-## Tech Stacks
+Now you are able to auto deploy your website using a domain from netlify. But how will you be able to deploy your own website using your own custom domain site. So here is the steps to connect custom domains with netlify:
 
-1. Selenium
-2. Cypress
-3. Katalon
-4. Qase
-5. Jira
+### Purchase custom domain from domain host
 
-## Projects
+1. Open [niagahoster](https://www.niagahoster.co.id/)
+2. Click on Domain and select cari & cek domain
+   ![cari domain](asset/screenshot/10.png)
+3. Input domain name and click cek sekarang
+   ![input domain name](asset/screenshot/11.png)
+4. It will show domain options then select your domain by click pilih (_recommend the cheapest one for study purposes_)
+   ![select domain](asset/screenshot/12.png)
+5. Choose your payment method and and proceed payment by clicking buat tagihan pembayaran
+   ![payment](asset/screenshot/13.png)
+6. After your payment is verified it will redirect to the domain setting board
+   ![domain setting board](asset/screenshot/14.png)
 
-| Tools         | Tested Website                                          | Documentation                                                              |
-| ------------- | ------------------------------------------------------- | -------------------------------------------------------------------------- |
-| Selenium Java | [cicle](https://cicle.app/)                             | [github](https://github.com/randykpradana/big-project-cicle-app)           |
-| Cypress       | [automationteststore](https://automationteststore.com/) | [github](https://github.com/irfanplazuardi/cypress-pom-automationtestsore) |
+### Set up cutom domain from netlify
 
-## Code Snippet
-
-**HTML**
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <h1>Hello World</h1>
-  </body>
-</html>
-```
-
-**CSS**
-
-```css
-p {
-  color: red;
-  text-align: center;
-}
-```
-
-**Javascript**
-
-```js
-function functionName() {
-  console.log("Hello World");
-}
-//call function
-functionName(); //Hello World
-```
-
-![Eat Sleep Code Repeat](https://media.giphy.com/media/VTtANKl0beDFQRLDTh/giphy.gif)
+1. Go to [netlify](https://www.netlify.com/) dashboard select site (_account must be login_)
+2. Click setup up custom domain
+   ![setup custom domain](asset/screenshot/18.png)
+3. Input your domain created from niagahoster
+   ![add new site](asset/screenshot/15.png)
+4. Click verify
+5. Click continue
+   ![continue](asset/screenshot/16.png)
+6. Copy all domain name servers and click done
+   ![copy domain name server](asset/screenshot/17.png)
+7. Go back to [niagahoster](https://www.niagahoster.co.id/) domain setting board
+8. Select DNS / Nameservers then click Change Nameservers
+   ![change name server](asset/screenshot/19.png)
+9. Paste the name servers from netlify in order from field 1-4
+10. Click Save
+    ![paste name server](asset/screenshot/20.png)
+11. Wait for a couple hours and make sure to check your domain frequently to make sure it is deployed
