@@ -44,7 +44,7 @@ After successfully connect your github project with netlify you now can auto dep
 
 Now you are able to auto deploy your website using a domain from netlify. But how will you be able to deploy your own website using your own custom domain site. So here is the steps to connect custom domains with netlify:
 
-### Purchase custom domain from domain host
+## Purchase custom domain from domain host
 
 1. Open [niagahoster](https://www.niagahoster.co.id/)
 2. Click on Domain and select cari & cek domain
@@ -58,7 +58,7 @@ Now you are able to auto deploy your website using a domain from netlify. But ho
 6. After your payment is verified it will redirect to the domain setting board
    ![domain setting board](asset/screenshot/14.png)
 
-### Set up cutom domain from netlify
+## Set up cutom domain from netlify
 
 1. Go to [netlify](https://www.netlify.com/) dashboard select site (_account must be login_)
 2. Click setup up custom domain
